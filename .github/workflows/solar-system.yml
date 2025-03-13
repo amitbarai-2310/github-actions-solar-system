@@ -50,7 +50,7 @@ jobs:
             node-version: 18
         
         - name: Install Dependancies
-          run: npm test
+          run: npm install
         
         - name: Code-Coverage
           continue-on-error: true
